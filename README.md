@@ -55,9 +55,10 @@ Open http://localhost:8501
 **Note**: First indexing downloads multilingual model (~400MB) – one-time only.
 
 ## Demo Workflow
-1. Upload PDF(s)
-2. Click "Index Uploaded PDFs"
-3. Ask questions in Hindi or English
+1. Upload PDF(s)  (provided in sample_pdf folder)
+2. Click "Index Uploaded PDFs" (indexing pdf for first time takes longer time because , it will install a large llm file of 1 GB)
+3. longer pdf may take time while indexing due to chunking
+4. Ask questions in Hindi or English
    - Example: "What is the leave policy?"
 
 ## Project Structure
