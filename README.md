@@ -14,21 +14,21 @@ This tool solves the problem by:
 - Describing images/charts for searchability
 
 ## Key Features
-- OCR for Scanned PDFs – Handles image-based PDFs using Tesseract + OpenCV denoising
-- Multilingual Support – Works with Hindi, English, and other languages (queries & content)
-- Semantic Search – Powered by multilingual embeddings and Groq AI
-- Table Extraction – Accurate table parsing stored for direct querying
-- Image & Chart Handling – Generates descriptions for visual content search
-- User-Friendly Interface – Clean Streamlit web app with upload, indexing, and chat
-- Free & Fast – Uses Groq free tier (Llama 3.3 70B) – no cost!
+- OCR for Scanned PDFs â€“ Handles image-based PDFs using Tesseract + OpenCV denoising
+- Multilingual Support â€“ Works with Hindi, English, and other languages (queries & content)
+- Semantic Search â€“ Powered by multilingual embeddings and Groq AI
+- Table Extraction â€“ Accurate table parsing stored for direct querying
+- Image & Chart Handling â€“ Generates descriptions for visual content search
+- User-Friendly Interface â€“ Clean Streamlit web app with upload, indexing, and chat
+- Free & Fast â€“ Uses Groq free tier (Llama 3.3 70B) â€“ no cost!
 
 ## Tech Stack
-- LangChain – RAG pipeline
-- Groq AI – Fast LLM inference (free tier)
-- Qdrant – Local vector database
-- HuggingFace Embeddings – Multilingual semantic search
-- PyMuPDF, Camelot, pytesseract – PDF processing & OCR
-- Streamlit – Interactive web interface
+- LangChain â€“ RAG pipeline
+- Groq AI â€“ Fast LLM inference (free tier)
+- Qdrant â€“ Local vector database
+- HuggingFace Embeddings â€“ Multilingual semantic search
+- PyMuPDF, Camelot, pytesseract â€“ PDF processing & OCR
+- Streamlit â€“ Interactive web interface
 
 ## How to Run
 
@@ -52,13 +52,12 @@ streamlit run app.py
 
 Open http://localhost:8501
 
-**Note**: First indexing downloads multilingual model (~400MB) – one-time only.
+**Note**: First indexing downloads multilingual model (~400MB) â€“ one-time only.
 
 ## Demo Workflow
 1. Upload PDF(s)
 2. Click "Index Uploaded PDFs"
 3. Ask questions in Hindi or English
-   - Example: "?? ????? ??? ????? ???????? ????"
    - Example: "What is the leave policy?"
 
 ## Project Structure
@@ -73,14 +72,14 @@ Open http://localhost:8501
 ## Performance
 - 80-page PDF indexing: ~1-3 minutes (after first model download)
 - Query response: <2 seconds
-- Fully local storage – private & secure
+- Fully local storage â€“ private & secure
 
 ## Made for Intel Unnati 2026
 **Document Intelligence & Enterprise Search Challenge**
 
 Thank you Intel Unnati team for this amazing opportunity!
 
-**Submitted by:** Shivansh Tiwari  
+**Submitted by:** Shivansh Tiwari , Jay Soni, Shubham Solat 
 **GitHub:** @Tshivansh319
 
 ---
